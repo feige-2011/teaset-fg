@@ -5,13 +5,13 @@ A UI library for react native, provides 20+ pure JS(ES6) components, focusing on
 
 # Installation
 ```
-npm install --save teaset
+npm install --save teaset-fg
 ```
 
 # Example
 Clone teaset project from github (or download zip file):
 ```
-git clone https://github.com/rilyu/teaset.git
+git clone https://github.com/fege-2011/teaset.git
 cd teaset/example
 npm install
 ```
