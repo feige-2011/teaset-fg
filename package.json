@@ -1,6 +1,6 @@
 {
   "name": "teaset-fg",
-  "version": "1.0.4",
+  "version": "1.0.2",
   "description": "A UI library for react native.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liyanfei1004774105/teaset-fg.git"
+    "url": "git+https://github.com/feige-2011/teaset-fg.git"
   },
   "keywords": [
     "teaset",
@@ -21,9 +21,9 @@
   "author": "feige",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/liyanfei1004774105/teaset-fg/issues"
+    "url": "https://github.com/feige-2011/teaset-fg/issues"
   },
-  "homepage": "https://github.com/liyanfei1004774105/teaset-fg#readme",
+  "homepage": "https://github.com/feige-2011/teaset-fg#readme",
   "dependencies": {
     "prop-types": "^15.7.2",
     "react-native-legacy-components": "^0.1.3",
