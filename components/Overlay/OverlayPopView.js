@@ -4,7 +4,8 @@
 
 import React, {Component} from "react";
 import PropTypes from 'prop-types';
-import {Animated, View, ViewPropTypes} from 'react-native';
+import {Animated, View} from 'react-native';
+import {ViewPropTypes} from 'deprecated-react-native-prop-types';
 
 import OverlayView from './OverlayView';
 
@@ -32,7 +33,7 @@ export default class OverlayPopView extends OverlayView {
     super(props);
     this.viewLayout = {x: 0, y: 0, width: 0, height: 0};
     Object.assign(this.state, {
-      opacity: new Animated.Value(1), 
+      opacity: new Animated.Value(1),
       translateX: new Animated.Value(0),
       translateY: new Animated.Value(0),
       scaleX: new Animated.Value(1),
@@ -73,7 +74,7 @@ export default class OverlayPopView extends OverlayView {
     ]);
     return animates;
   }
-  
+
   get disappearAnimates() {
     let animates = super.disappearAnimates;
     let duration = 200;

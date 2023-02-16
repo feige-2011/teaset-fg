@@ -4,8 +4,8 @@
 
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {View, Text, ViewPropTypes} from 'react-native';
-
+import {View, Text} from 'react-native';
+import {ViewPropTypes} from 'deprecated-react-native-prop-types';
 import Theme from 'teaset-fg/themes/Theme';
 
 export default class Badge extends Component {

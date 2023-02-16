@@ -4,8 +4,8 @@
 
 import React, {Component} from "react";
 import PropTypes from 'prop-types';
-import {StyleSheet, View, Text, Animated, PanResponder, ViewPropTypes} from 'react-native';
-
+import {StyleSheet, View, Text, Animated, PanResponder} from 'react-native';
+import {ViewPropTypes} from 'deprecated-react-native-prop-types';
 import Theme from 'teaset-fg/themes/Theme';
 import WheelItem from './WheelItem';
 

@@ -4,8 +4,8 @@
 
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {StyleSheet, Platform, StatusBar, View, Text, Animated, ViewPropTypes, Dimensions} from 'react-native';
-
+import {StyleSheet, Platform, StatusBar, View, Text, Animated, Dimensions} from 'react-native';
+import {ViewPropTypes} from 'deprecated-react-native-prop-types';
 import Theme from 'teaset-fg/themes/Theme';
 import NavigationTitle from './NavigationTitle';
 import NavigationButton from './NavigationButton';
