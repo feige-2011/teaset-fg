@@ -1,8 +1,9 @@
-# Teaset
+# Teaset-fg
 [🇨🇳中文完整文档版](./docs/cn/README.md)
 
 A UI library for react native, provides 20+ pure JS(ES6) components, focusing on content display and action control.
 
+### Teaset-fg是基于Teaset升级适配新版本，之前使用Teaset的伙伴可以改用Teaset-fg
 # Installation
 ```
 npm install --save teaset-fg
