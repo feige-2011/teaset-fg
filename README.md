@@ -11,7 +11,7 @@ npm install --save teaset-fg
 # Example
 Clone teaset project from github (or download zip file):
 ```
-git clone https://github.com/fege-2011/teaset.git
+git clone https://github.com/fege-2011/teaset-fg.git
 cd teaset/example
 npm install
 ```
